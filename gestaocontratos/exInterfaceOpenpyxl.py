@@ -12,7 +12,6 @@ def manipularArqXl(arquivo):
     """
     arquivo = f'G:\AmbientePython\PycharmProjects\gestaocontratos\{arquivo}'
 
-    #teste
     ws = Workbook()
     print(type(ws))
     ws1 = open(arquivo)
